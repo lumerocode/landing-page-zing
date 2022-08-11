@@ -1,0 +1,148 @@
+.customer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: var(--color-text);
+    padding-top: 80px;
+    padding-bottom: 126px;
+}
+
+.customer__section {
+    max-width: var(--container-width-ms);
+    margin: auto;
+}
+
+.customer__section--title {
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.customer__section--all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    column-gap: 130px;
+    margin-top: 60px;
+}
+
+.customer__section--left {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.customer__section--left img:first-child {
+    display: flex;
+    justify-content: end;
+}
+
+.customer__section--left img:nth-child(2) {
+    position: absolute;
+    bottom: -40px;
+    left: 140px;
+}
+
+.customer__section--right {
+    padding-right: 30px;
+}
+
+.customer__section--right h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: var(--color-white);
+}
+
+.customer__section--right p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.customer__section--right h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-primary);
+    margin-top: 24px;
+}
+
+.customer__section--right p:nth-child(5) {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 0px;
+}
+
+.customer__section--right div {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: 77px;
+}
+
+.customer__section--right div label {
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 6px 10px; 
+    margin-right: 10px;
+}
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+    
+    .customer {
+        margin-bottom: 0px;
+        padding-bottom: 80px;
+    }
+
+    .customer__section--title {
+        font-size: 42px;
+    }
+
+    .customer__section--all {
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .customer__section--left {
+        justify-content: center;
+    }
+
+    .customer__section--left img:first-child {
+        width: 100%;
+    }
+
+    .customer__section--left img:last-child {
+        left: 170px;
+    }
+
+    .customer__section--right {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .customer__section--right p {
+        font-size: 18px;
+    }
+
+    .customer__section--right div {
+        justify-content: center;
+        column-gap: 10px;
+        padding-right: 0px;
+        margin-top: 50px;
+    }
+
+    .customer__section--right div label {
+        margin-right: 0px;
+    }
+
+}
