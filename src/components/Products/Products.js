@@ -13,8 +13,8 @@ import Imagen8 from '../../assets/Light-chair_product.png'
 const Products = () => {
   return (
     <section className='products'>
-        <div className='products__section'>
-            <div className='products__up'>
+        <div  className='products__section'>
+            <div id='products' className='products__up'>
                 <h1 className='products__up--title'>Products</h1>
                 <div className='products__up--sections'>
                     <ul className='products__up--links'>

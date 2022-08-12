@@ -7,7 +7,7 @@ import Imagen3 from '../../assets/quote-up_customer.png'
 export const Customer = () => {
   return (
     <section className='customer'>
-        <div className='customer__section'>
+        <div id='testimonial' className='customer__section'>
             <h1 className='customer__section--title'>What do customers say...</h1>
             <div className='customer__section--all'>
                 <div className='customer__section--left'>

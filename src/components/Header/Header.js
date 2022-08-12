@@ -12,12 +12,12 @@ const Header = () => {
                 </div>
                 <div className='nav__links--center'>
                     <a className='nav__link-center nav__link-center-active' href=''>Home</a>
-                    <a className='nav__link-center' href=''>About us</a>
-                    <a className='nav__link-center' href=''>Products</a>
-                    <a className='nav__link-center' href=''>Testimonial</a>
+                    <a className='nav__link-center' href='#about-us'>About us</a>
+                    <a className='nav__link-center' href='#products'>Products</a>
+                    <a className='nav__link-center' href='#testimonial'>Testimonial</a>
                 </div>
                 <div className='nav__links--right'>
-                    <a className='nav__link-right' href=''>Contact</a>
+                    <a className='nav__link-right' href='#contact-us'>Contact</a>
                     <button className='nav__button'>Buy Online</button>
                 </div>
             </nav>

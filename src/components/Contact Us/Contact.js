@@ -7,7 +7,7 @@ import Imagen4 from '../../assets/Image4_contact.png'
 
 export const Contact = () => {
   return (
-    <section className='contact'>
+    <section id='contact-us' className='contact'>
         <div className='contact__section'>
             <div className='contact__all--left'>
                 <div className='contact__left'>

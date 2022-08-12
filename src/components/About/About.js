@@ -7,7 +7,7 @@ import Imagen4 from '../../assets/image4_about.png'
 
 const About = () => {
   return (
-    <section className='about'>
+    <section id='about-us' className='about'>
         <div className='about__section'>
             <div className='about__left'>
                 <h1 className='about__left--title'>About us</h1>
